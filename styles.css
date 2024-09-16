@@ -13,12 +13,14 @@
   transform: scale(1.05);
 }
 
-.card-img-top {
-  border-top-left-radius: 10px;
-  border-top-right-radius: 10px;
-  max-height: 200px;
-  object-fit: contain;
+.btn-secondary {
+    background-color:#AFED00;
 }
+
+.btn-dark{
+    background-color:#111111;
+}
+
 
 
 

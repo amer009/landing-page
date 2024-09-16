@@ -4,173 +4,213 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
     <link rel="stylesheet" href="styles.css">
     <title>Document</title>
 </head>
 <body>
+<!-- Inicio estructura cards -->
     <div class="container-fluid">
         <div class="row">
-  
-          <div class="col-lg-3 col-md-6 mb-4">
-            <div class="card">
-                <img src="/image/1.jpg" class="card-img-top" alt="Imagen de ejemplo"/>
-                <div class="card-body text-center">
-                    <h5 class="card-title">zapato</h5>
-                    <p class="card-text">Este es un espacio para un párrafo de texto</p>
-                    <div class="d-flex">
-                        <button class="btn btn-primary flex-grow-1 mr-1">Agregar</button>
-                        <button class="btn btn-secondary flex-grow-1 ml-1">Detalle</button>
+            <div class="col-lg-3 col-md-6 mb-4">
+                <div class="card">
+                    <img src="/image/1.jpg" class="card-img-top" alt="Imagen de ejemplo" data-image="/image/1.jpg"/>
+                    <div class="card-body text-center">
+                        <h5 class="card-title">Adidas Ultraboost 22</h5>
+                        <p class="card-text">Con su innovadora tecnología Boost en la entresuela, proporciona un retorno de energía excepcional y una comodidad superior. Perfecto para corredores.</p>
+                        <div class="d-flex">
+                            <button class="btn btn-dark flex-grow-1 mr-1" data-bs-toggle="modal" data-bs-target="#cartModal" data-image="/image/1.jpg">Agregar</button>
+                            <button class="btn btn-secondary flex-grow-1 ml-1" data-bs-toggle="modal" data-bs-target="#detailModal">Detalle</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-6 mb-4">
+                <div class="card">
+                    <img src="/image/2.jpg" class="card-img-top" alt="Imagen de ejemplo" data-image="/image/2.jpg"/>
+                    <div class="card-body text-center">
+                        <h5 class="card-title">Adidas Ultraboost</h5>
+                        <p class="card-text">Ofrece una excelente amortiguación y retorno de energía. Perfecto para correr o para quienes buscan comodidad durante todo el día.</p>
+                        <div class="d-flex">
+                            <button class="btn btn-dark flex-grow-1 mr-1" data-bs-toggle="modal" data-bs-target="#cartModal" data-image="/image/2.jpg">Agregar</button>
+                            <button class="btn btn-secondary flex-grow-1 ml-1" data-bs-toggle="modal" data-bs-target="#detailModal">Detalle</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-6 mb-4">
+                <div class="card">
+                    <img src="/image/3.jpg" class="card-img-top" alt="Imagen de ejemplo" data-image="/image/3.jpg"/>
+                    <div class="card-body text-center">
+                        <h5 class="card-title">Nike Air Max 270</h5>
+                        <p class="card-text">Disfruta de una comodidad superior con la amortiguación Air Max y una apariencia moderna. Ideal para el uso diario y actividades ligeras.</p>
+                        <div class="d-flex">
+                            <button class="btn btn-dark flex-grow-1 mr-1" data-bs-toggle="modal" data-bs-target="#cartModal" data-image="/image/3.jpg">Agregar</button>
+                            <button class="btn btn-secondary flex-grow-1 ml-1" data-bs-toggle="modal" data-bs-target="#detailModal">Detalle</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-6 mb-4">
+                <div class="card">
+                    <img src="/image/4.jpg" class="card-img-top" alt="Imagen de ejemplo" data-image="/image/4.jpg"/>
+                    <div class="card-body text-center">
+                        <h5 class="card-title">Nike Air Zoom Pegasus 39</h5>
+                        <p class="card-text">Amortiguación reactiva y soporte flexible. Perfecto para corredores que buscan comodidad, rendimiento en cada zancada y velocidad al caminar.</p>
+                        <div class="d-flex">
+                            <button class="btn btn-dark flex-grow-1 mr-1" data-bs-toggle="modal" data-bs-target="#cartModal" data-image="/image/4.jpg">Agregar</button>
+                            <button class="btn btn-secondary flex-grow-1 ml-1" data-bs-toggle="modal" data-bs-target="#detailModal">Detalle</button>
+                        </div>
+                    </div>
+                </div>
+            </div>       
+            <div class="col-lg-3 col-md-6 mb-4">
+                <div class="card">
+                    <img src="/image/5.jpg" class="card-img-top" alt="Imagen de ejemplo" data-image="/image/5.jpg"/>
+                    <div class="card-body text-center">
+                        <h5 class="card-title">New Balance 990v5</h5>
+                        <p class="card-text">Tecnología Wave Foam para máxima comodidad. Perfecto para quienes buscan amortiguación, soporte prolongado y suavidad al correr.</p>
+                        <div class="d-flex">
+                            <button class="btn btn-dark flex-grow-1 mr-1" data-bs-toggle="modal" data-bs-target="#cartModal" data-image="/image/5.jpg">Agregar</button>
+                            <button class="btn btn-secondary flex-grow-1 ml-1" data-bs-toggle="modal" data-bs-target="#detailModal">Detalle</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-6 mb-4">
+                <div class="card">
+                    <img src="/image/6.jpg" class="card-img-top" alt="Imagen de ejemplo" data-image="/image/6.jpg"/>
+                    <div class="card-body text-center">
+                        <h5 class="card-title">Nike Free RN 5.0</h5>
+                        <p class="card-text">Diseño ligero con flexibilidad natural. Perfecto para quienes desean un ajuste cómodo, confort, soporte total y libertad de movimiento.</p>
+                        <div class="d-flex">
+                            <button class="btn btn-dark flex-grow-1 mr-1" data-bs-toggle="modal" data-bs-target="#cartModal" data-image="/image/6.jpg">Agregar</button>
+                            <button class="btn btn-secondary flex-grow-1 ml-1" data-bs-toggle="modal" data-bs-target="#detailModal">Detalle</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-6 mb-4">
+                <div class="card">
+                    <img src="/image/7.jpg" class="card-img-top" alt="Imagen de ejemplo" data-image="/image/7.jpg"/>
+                    <div class="card-body text-center">
+                        <h5 class="card-title">Nike React Infinity Run Flyknit</h5>
+                        <p class="card-text">Amortiguación React para una pisada suave. Perfecto para quienes buscan estabilidad, confort prolongado y rendimiento.</p>
+                        <div class="d-flex">
+                            <button class="btn btn-dark flex-grow-1 mr-1" data-bs-toggle="modal" data-bs-target="#cartModal" data-image="/image/7.jpg">Agregar</button>
+                            <button class="btn btn-secondary flex-grow-1 ml-1" data-bs-toggle="modal" data-bs-target="#detailModal">Detalle</button>
+                        </div>
+                    </div>
+                </div>
+            </div>       
+            <div class="col-lg-3 col-md-6 mb-4">
+                <div class="card">
+                    <img src="/image/8.jpg" class="card-img-top" alt="Imagen de ejemplo" data-image="/image/8.jpg"/>
+                    <div class="card-body text-center">
+                        <h5 class="card-title">Mizuno Wave Sky 5</h5>
+                        <p class="card-text">Tecnología Wave Foam para máxima comodidad. Perfecto para quienes buscan amortiguación, soporte prolongado y suavidad al correr.</p>
+                        <div class="d-flex">
+                            <button class="btn btn-dark flex-grow-1 mr-1" data-bs-toggle="modal" data-bs-target="#cartModal" data-image="/image/8.jpg">Agregar</button>
+                            <button class="btn btn-secondary flex-grow-1 ml-1" data-bs-toggle="modal" data-bs-target="#detailModal">Detalle</button>
+                        </div>
+                    </div>
+                </div>
+            </div>        
+            <div class="col-lg-3 col-md-6 mb-4">
+                <div class="card">
+                    <img src="/image/9.jpg" class="card-img-top" alt="Imagen de ejemplo" data-image="/image/9.jpg"/>
+                    <div class="card-body text-center">
+                        <h5 class="card-title">Nike Air 320</h5>
+                        <p class="card-text">Amortiguación PWRRUN+ ligera y reactiva. Perfecto para quienes buscan ligereza, suavidad y confort en largas distancias, ideal para terreno dificiles.</p>
+                        <div class="d-flex">
+                            <button class="btn btn-dark flex-grow-1 mr-1" data-bs-toggle="modal" data-bs-target="#cartModal" data-image="/image/9.jpg">Agregar</button>
+                            <button class="btn btn-secondary flex-grow-1 ml-1" data-bs-toggle="modal" data-bs-target="#detailModal">Detalle</button>
+                        </div>
+                    </div>
+                </div>
+            </div>       
+            <div class="col-lg-3 col-md-6 mb-4">
+                <div class="card">
+                    <img src="/image/10.jpg" class="card-img-top" alt="Imagen de ejemplo" data-image="/image/10.jpg"/>
+                    <div class="card-body text-center">
+                        <h5 class="card-title">Asics Novablast 2</h5>
+                        <p class="card-text">Amortiguación reactiva con gran retorno de energía. Perfecto para quienes buscan velocidad, confort y estabilidad al correr en cualquier terreno.</p>
+                        <div class="d-flex">
+                            <button class="btn btn-dark flex-grow-1 mr-1" data-bs-toggle="modal" data-bs-target="#cartModal" data-image="/image/10.jpg">Agregar</button>
+                            <button class="btn btn-secondary flex-grow-1 ml-1" data-bs-toggle="modal" data-bs-target="#detailModal">Detalle</button>
+                        </div>
+                    </div>
+                </div>
+            </div>       
+            <div class="col-lg-3 col-md-6 mb-4">
+                <div class="card">
+                    <img src="/image/11.jpg" class="card-img-top" alt="Imagen de ejemplo" data-image="/image/11.jpg"/>
+                    <div class="card-body text-center">
+                        <h5 class="card-title">Puma Future Rider</h5>
+                        <p class="card-text">Diseño retro con suela acolchada. Perfecto para quienes buscan estilo nostálgico, soporte y comodidad durante todo el día y para todos los terrenos.</p>
+                        <div class="d-flex">
+                            <button class="btn btn-dark flex-grow-1 mr-1" data-bs-toggle="modal" data-bs-target="#cartModal" data-image="/image/11.jpg">Agregar</button>
+                            <button class="btn btn-secondary flex-grow-1 ml-1" data-bs-toggle="modal" data-bs-target="#detailModal">Detalle</button>
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
-
-        <div class="col-lg-3 col-md-6 mb-4">
-            <div class="card">
-                <img src="/image/2.jpg" class="card-img-top" alt="Imagen de ejemplo"/>
-                <div class="card-body text-center">
-                    <h5 class="card-title">zapato</h5>
-                    <p class="card-text">Este es un espacio para un párrafo de texto</p>
-                    <div class="d-flex">
-                        <button class="btn btn-primary flex-grow-1 mr-1">Agregar</button>
-                        <button class="btn btn-secondary flex-grow-1 ml-1">Detalle</button>
-                    </div>
+    </div>
+<!-- Fin estructura cards -->
+<!-- Inicio modal detalles -->
+    <div class="modal fade" id="detailModal" tabindex="-1" aria-labelledby="modalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="modalLabel">Detalles del Producto</h5>
+                </div>
+                <div class="modal-body">
+                    Tallas Disponibles Hombre: 7 (US) - 7.5 (US) - 8 (US) - 8.5 (US) - 9 (US) - 9.5 (US) - 10 (US) - 10.5 (US) - 11 (US) - 11.5 (US) - 12 (US)
+                    <br>
+                    Tallas Disponibles Mujer: 5 (US) - 5.5 (US) - 6 (US) - 6.5 (US) - 7 (US) - 7.5 (US) - 8 (US) - 8.5 (US) - 9 (US) - 9.5 (US) - 10 (US)
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
                 </div>
             </div>
         </div>
-
-        <div class="col-lg-3 col-md-6 mb-4">
-            <div class="card">
-                <img src="/image/3.jpg" class="card-img-top" alt="Imagen de ejemplo"/>
-                <div class="card-body text-center">
-                    <h5 class="card-title">zapato</h5>
-                    <p class="card-text">Este es un espacio para un párrafo de texto</p>
-                    <div class="d-flex">
-                        <button class="btn btn-primary flex-grow-1 mr-1">Agregar</button>
-                        <button class="btn btn-secondary flex-grow-1 ml-1">Detalle</button>
+    </div>
+<!-- Fin modal detalles --> 
+<!-- Inicio modal Agregar -->
+    <div class="modal fade" id="cartModal" tabindex="-1" aria-labelledby="cartModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="cartModalLabel">Agregar al Carrito</h5>
+                </div>
+                <div class="modal-body">
+                    <div class="text-center mb-3">
+                        <img id="modalImage" src="" alt="Imagen del producto" class="img-fluid">
                     </div>
+                    <form id="cartForm">
+                        <div class="mb-3">
+                            <label for="productQuantity" class="form-label">Cantidad</label>
+                            <div class="d-flex align-items-center">
+                                <button type="button" class="btn btn-outline-secondary" id="decrementBtn">-</button>
+                                <input type="number" class="form-control mx-2" id="productQuantity" value="1" min="1" readonly>
+                                <button type="button" class="btn btn-outline-secondary" id="incrementBtn">+</button>
+                            </div>
+                        </div>
+                        <div class="d-flex justify-content-between">
+                            <button type="button" class="btn btn-dark flex-grow-1 ml-0"  id="payBtn">Pagar</button>
+                            <button type="button" class="btn btn-secondary flex-grow-1 ml-1" data-bs-dismiss="modal">Cancelar</button>
+                        </div>
+                    </form>
                 </div>
             </div>
         </div>
+    </div>
+<!-- Fin modal Agregar --> 
 
-        <div class="col-lg-3 col-md-6 mb-4">
-            <div class="card">
-                <img src="/image/4.jpg" class="card-img-top" alt="Imagen de ejemplo"/>
-                <div class="card-body text-center">
-                    <h5 class="card-title">zapato</h5>
-                    <p class="card-text">Este es un espacio para un párrafo de texto</p>
-                    <div class="d-flex">
-                        <button class="btn btn-primary flex-grow-1 mr-1">Agregar</button>
-                        <button class="btn btn-secondary flex-grow-1 ml-1">Detalle</button>
-                    </div>
-                </div>
-            </div>
-        </div>
-
-        <div class="col-lg-3 col-md-6 mb-4">
-            <div class="card">
-                <img src="/image/5.jpg" class="card-img-top" alt="Imagen de ejemplo"/>
-                <div class="card-body text-center">
-                    <h5 class="card-title">zapato</h5>
-                    <p class="card-text">Este es un espacio para un párrafo de texto</p>
-                    <div class="d-flex">
-                        <button class="btn btn-primary flex-grow-1 mr-1">Agregar</button>
-                        <button class="btn btn-secondary flex-grow-1 ml-1">Detalle</button>
-                    </div>
-                </div>
-            </div>
-        </div>
-
-        <div class="col-lg-3 col-md-6 mb-4">
-            <div class="card">
-                <img src="/image/6.jpg" class="card-img-top" alt="Imagen de ejemplo"/>
-                <div class="card-body text-center">
-                    <h5 class="card-title">zapato</h5>
-                    <p class="card-text">Este es un espacio para un párrafo de texto</p>
-                    <div class="d-flex">
-                        <button class="btn btn-primary flex-grow-1 mr-1">Agregar</button>
-                        <button class="btn btn-secondary flex-grow-1 ml-1">Detalle</button>
-                    </div>
-                </div>
-            </div>
-        </div>
-
-        <div class="col-lg-3 col-md-6 mb-4">
-            <div class="card">
-                <img src="/image/7.jpg" class="card-img-top" alt="Imagen de ejemplo"/>
-                <div class="card-body text-center">
-                    <h5 class="card-title">zapato</h5>
-                    <p class="card-text">Este es un espacio para un párrafo de texto</p>
-                    <div class="d-flex">
-                        <button class="btn btn-primary flex-grow-1 mr-1">Agregar</button>
-                        <button class="btn btn-secondary flex-grow-1 ml-1">Detalle</button>
-                    </div>
-                </div>
-            </div>
-        </div>
-
-        <div class="col-lg-3 col-md-6 mb-4">
-            <div class="card">
-                <img src="/image/8.jpg" class="card-img-top" alt="Imagen de ejemplo"/>
-                <div class="card-body text-center">
-                    <h5 class="card-title">zapato</h5>
-                    <p class="card-text">Este es un espacio para un párrafo de texto</p>
-                    <div class="d-flex">
-                        <button class="btn btn-primary flex-grow-1 mr-1">Agregar</button>
-                        <button class="btn btn-secondary flex-grow-1 ml-1">Detalle</button>
-                    </div>
-                </div>
-            </div>
-        </div>
-
-        <div class="col-lg-3 col-md-6 mb-4">
-            <div class="card">
-                <img src="/image/9.jpg" class="card-img-top" alt="Imagen de ejemplo"/>
-                <div class="card-body text-center">
-                    <h5 class="card-title">zapato</h5>
-                    <p class="card-text">Este es un espacio para un párrafo de texto</p>
-                    <div class="d-flex">
-                        <button class="btn btn-primary flex-grow-1 mr-1">Agregar</button>
-                        <button class="btn btn-secondary flex-grow-1 ml-1">Detalle</button>
-                    </div>
-                </div>
-            </div>
-        </div>
-
-        <div class="col-lg-3 col-md-6 mb-4">
-            <div class="card">
-                <img src="/image/10.jpg" class="card-img-top" alt="Imagen de ejemplo"/>
-                <div class="card-body text-center">
-                    <h5 class="card-title">zapato</h5>
-                    <p class="card-text">Este es un espacio para un párrafo de texto</p>
-                    <div class="d-flex">
-                        <button class="btn btn-primary flex-grow-1 mr-1">Agregar</button>
-                        <button class="btn btn-secondary flex-grow-1 ml-1">Detalle</button>
-                    </div>
-                </div>
-            </div>
-        </div>
-
-        <div class="col-lg-3 col-md-6 mb-4">
-            <div class="card">
-                <img src="/image/11.jpg" class="card-img-top" alt="Imagen de ejemplo"/>
-                <div class="card-body text-center">
-                    <h5 class="card-title">zapato</h5>
-                    <p class="card-text">Este es un espacio para un párrafo de texto</p>
-                    <div class="d-flex">
-                        <button class="btn btn-primary flex-grow-1 mr-1">Agregar</button>
-                        <button class="btn btn-secondary flex-grow-1 ml-1">Detalle</button>
-                    </div>
-                </div>
-            </div>
-        </div>
-  
-
-  
-        </div>
-      </div> 
-
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.2/dist/js/bootstrap.bundle.min.js"></script>
-</body>
+    <script src="script.js"></script>
+</body> 
 </html>
